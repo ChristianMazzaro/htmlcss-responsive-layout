@@ -236,7 +236,68 @@ main .second-section .benefits .cards .card{
     height: 9.0625rem;
 }
 
+main .second-section .benefits .cards .card{
+    line-height: 1.25rem;
+    padding: 1.875rem;
+    text-align: justify;
+    border-radius:1.125rem;
+    margin-left: 1.875rem;
+    margin-right: 1.875rem;
+}
 
+main .second-section .benefits .cards .card > p,h4{
+    margin: 1.625rem 0;
+}
+
+main .second-section .benefits .cards .card > h1{
+    font-size: 3.125rem;
+}
+
+main .second-section .benefits .cards .card > h4{
+    font-size: 1.875rem;
+}
+
+.card > span{
+    border-radius:1.125rem;
+    padding: .625rem;
+    display: inline-block;
+    width: 9.375rem;
+    color: white;
+    text-align: center;
+}
+
+.about-us{
+    margin-top: 3.125rem;
+    margin-bottom: 3.125rem;
+    line-height: 2.1875rem;
+}
+
+.about-us > h1{
+    font-size: 3.125rem;
+    margin-bottom: 1.25rem;
+}
+
+.about-us > p{
+    margin: 1.25rem 0;
+}
+
+.about-us > img{
+    width: 12.5rem;
+    height: 12.5rem;
+    border-radius: 50%;
+}
+
+.strong{
+    font-size: 1.25rem;
+}
+
+.about-us > span{
+    border-radius:1.125rem;
+    display: inline-block;
+    width: 62.5rem;
+    color: white;
+    text-align: center;
+}
 
 
 
