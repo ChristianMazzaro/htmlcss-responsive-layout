@@ -19,6 +19,7 @@
 
 .second-color-bg{
     background-color: var(--second-color);
+    border-radius:1.125rem;
 }
 
 .third-color-text{
