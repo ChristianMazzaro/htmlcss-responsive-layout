@@ -84,6 +84,9 @@ main .first-section{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding: 3.125rem;
+    color: white;
+
 }
 
 .testimonials{
@@ -180,6 +183,46 @@ main .second-section .benefits .cards .card{
 .small-card-content > i{
     font-size: 3.125rem;
 }
+
+
+
+.strategic-planning div img{
+    width: 15rem;
+    height: 15rem;
+}
+
+
+
+.first-planning-box > *{
+    margin: 1.25rem 0;
+}
+
+
+
+.second-planning-box{
+    background-color: white;
+    border-radius:1.125rem;
+    color: black;
+    text-align: center;
+}
+
+.second-planning-box > *{
+    margin: 1.25rem 0;
+}
+
+.second-planning-box > i{
+    font-size: xx-large;
+}
+
+.second-planning-box > p{
+    font-style: oblique;
+}
+
+
+
+
+
+
 /*
 
 FOOTER
@@ -238,6 +281,22 @@ MEDIA QUERY
         width: calc((100% / 2) - 1.25rem);
     }
 
+
+    .small-card-content{
+        height: 100%;
+        font-size: 1.25rem;
+    }
+
+    main .second-section .container .strategic-planning div > img{
+        width: 40rem;
+        height: 40rem;
+    }
+
+    main .second-section .container .strategic-planning .first-planning-box > h2{
+        font-size: 4.375rem;
+    }
+
+
     .about-us{
         width: 100%;
         padding: 3.125rem;
@@ -249,7 +308,6 @@ MEDIA QUERY
         margin: 0 auto;
         text-align: center;
         padding: 1.25rem;
-
     }
 
     /*
@@ -302,6 +360,39 @@ MEDIA QUERY
 
     .main-card-content > div{
         width: 50%;
+    }
+
+    .strategic-planning{
+        padding: 3rem 9.375rem;
+        align-items: flex-end;
+    }
+
+    .first-planning-box{
+        width: 50%;
+    }
+
+    .second-planning-box{
+        width: 50%;
+    }
+
+    
+    main .second-section .container .strategic-planning div > img{
+        width: 20rem;
+        height: 20rem;
+    }
+
+    main .second-section .container .strategic-planning .second-planning-box > img{
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .second-planning-box > h2{
+        margin: .5rem 0;
+    }
+
+    main .second-section .container .strategic-planning .first-planning-box > h2{
+        font-size: 1.875rem ;
+        margin: 3.125rem 0;
     }
 
     .profiles-container{
