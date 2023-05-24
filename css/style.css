@@ -92,15 +92,20 @@ main .first-section{
 .testimonials{
     text-align: center;
     padding: .625rem;
+    line-height: 1.875rem;
+    padding: 1.875rem;
 }
 
 .testimonials > h4{
-    margin: .625rem 0;
+    margin: 1.625rem 0;
+    font-size: 1.875rem;
 }
 
 
 .profiles-container{
     padding: .625rem;
+    width: 70%;
+    margin: 0 auto;
 }
 
 
@@ -217,6 +222,20 @@ main .second-section .benefits .cards .card{
 .second-planning-box > p{
     font-style: oblique;
 }
+
+.profiles-container .profile{
+    text-align: center;
+    line-height: 1.5625rem;
+    border-radius:1.5625rem;
+    padding: .625rem;
+}
+
+.profiles-container .profile > img{
+    border-radius: 50%;
+    width: 9.75rem;
+    height: 9.0625rem;
+}
+
 
 
 
